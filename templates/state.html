@@ -1,0 +1,17 @@
+<!-- state.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ state }} Prediction Results</title>
+</head>
+<body>
+    <h1>{{ state }} Prediction Results</h1>
+    <h3>Predictions:</h3>
+    <ul>
+        {% for prediction in predictions %}
+            <li>{{ prediction }}</li>
+        {% endfor %}
+    </ul>
+    <h3>Accuracy: {{ accuracy }}</h3>
+</body>
+</html>

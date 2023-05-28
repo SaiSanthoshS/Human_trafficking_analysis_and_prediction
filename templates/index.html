@@ -1,0 +1,15 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Human Trafficking Prediction</title>
+</head>
+<body>
+    <h1>Human Trafficking Prediction</h1>
+    <ul>
+        {% for state in states %}
+            <li><a href="/state/{{ state }}">{{ state }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
